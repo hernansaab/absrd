@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB4BBCA415DF3E5F0059E013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4BBCA315DF3E5F0059E013 /* Foundation.framework */; };
+		FB4BBCAB15DF3E5F0059E013 /* PALANGANA_CLEAN.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB4BBCAA15DF3E5F0059E013 /* PALANGANA_CLEAN.1 */; };
+		FB4BBCB515DF3ECE0059E013 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4BBCB415DF3ECE0059E013 /* Cocoa.framework */; };
+		FB4BBD0B15DF6DE00059E013 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4BBCA615DF3E5F0059E013 /* main.m */; };
+		FB4BBD0D15DF6E0B0059E013 /* testAbsrd.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4BBCB315DF3EA10059E013 /* testAbsrd.m */; };
+		FB4BC13F15ECFCFC0059E013 /* libmysqlclient.18.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4BC13E15ECFCFC0059E013 /* libmysqlclient.18.dylib */; };
+		FB4BC14115ECFD570059E013 /* libabsrd_static_library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4BC14015ECFD570059E013 /* libabsrd_static_library.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB4BBC9D15DF3E5F0059E013 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FB4BBCAB15DF3E5F0059E013 /* PALANGANA_CLEAN.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB4BBC9F15DF3E5F0059E013 /* PALANGANA.CLEAN */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PALANGANA.CLEAN; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4BBCA315DF3E5F0059E013 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB4BBCA615DF3E5F0059E013 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB4BBCA915DF3E5F0059E013 /* PALANGANA.CLEAN-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PALANGANA.CLEAN-Prefix.pch"; sourceTree = "<group>"; };
+		FB4BBCAA15DF3E5F0059E013 /* PALANGANA_CLEAN.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PALANGANA_CLEAN.1; sourceTree = "<group>"; };
+		FB4BBCB215DF3EA10059E013 /* testAbsrd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testAbsrd.h; sourceTree = "<group>"; };
+		FB4BBCB315DF3EA10059E013 /* testAbsrd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testAbsrd.m; sourceTree = "<group>"; };
+		FB4BBCB415DF3ECE0059E013 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FB4BC0D915EC736F0059E013 /* AbsrdConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbsrdConf.h; sourceTree = "<group>"; };
+		FB4BC0DB15EC736F0059E013 /* DbConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbConnector.h; sourceTree = "<group>"; };
+		FB4BC0E215EC736F0059E013 /* DbManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbManager.h; sourceTree = "<group>"; };
+		FB4BC0E415EC736F0059E013 /* QueryBlockBuster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryBlockBuster.h; sourceTree = "<group>"; };
+		FB4BC13E15ECFCFC0059E013 /* libmysqlclient.18.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libmysqlclient.18.dylib; sourceTree = "<group>"; };
+		FB4BC14015ECFD570059E013 /* libabsrd_static_library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libabsrd_static_library.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB4BBC9C15DF3E5F0059E013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4BBCA415DF3E5F0059E013 /* Foundation.framework in Frameworks */,
+				FB4BBCB515DF3ECE0059E013 /* Cocoa.framework in Frameworks */,
+				FB4BC13F15ECFCFC0059E013 /* libmysqlclient.18.dylib in Frameworks */,
+				FB4BC14115ECFD570059E013 /* libabsrd_static_library.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB4BBC9415DF3E5F0059E013 = {
+			isa = PBXGroup;
+			children = (
+				FB4BBCA515DF3E5F0059E013 /* PALANGANA.CLEAN */,
+				FB4BBCA215DF3E5F0059E013 /* Frameworks */,
+				FB4BBCA015DF3E5F0059E013 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB4BBCA015DF3E5F0059E013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB4BBC9F15DF3E5F0059E013 /* PALANGANA.CLEAN */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB4BBCA215DF3E5F0059E013 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB4BC14015ECFD570059E013 /* libabsrd_static_library.a */,
+				FB4BC13E15ECFCFC0059E013 /* libmysqlclient.18.dylib */,
+				FB4BBCB415DF3ECE0059E013 /* Cocoa.framework */,
+				FB4BBCA315DF3E5F0059E013 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB4BBCA515DF3E5F0059E013 /* PALANGANA.CLEAN */ = {
+			isa = PBXGroup;
+			children = (
+				FB4BC0D515EC736F0059E013 /* ABSRD */,
+				FB4BBCB215DF3EA10059E013 /* testAbsrd.h */,
+				FB4BBCB315DF3EA10059E013 /* testAbsrd.m */,
+				FB4BBCA615DF3E5F0059E013 /* main.m */,
+				FB4BBCAA15DF3E5F0059E013 /* PALANGANA_CLEAN.1 */,
+				FB4BBCA815DF3E5F0059E013 /* Supporting Files */,
+			);
+			path = PALANGANA.CLEAN;
+			sourceTree = "<group>";
+		};
+		FB4BBCA815DF3E5F0059E013 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB4BBCA915DF3E5F0059E013 /* PALANGANA.CLEAN-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB4BC0D515EC736F0059E013 /* ABSRD */ = {
+			isa = PBXGroup;
+			children = (
+				FB4BC0D815EC736F0059E013 /* MODELS */,
+			);
+			path = ABSRD;
+			sourceTree = "<group>";
+		};
+		FB4BC0D815EC736F0059E013 /* MODELS */ = {
+			isa = PBXGroup;
+			children = (
+				FB4BC0D915EC736F0059E013 /* AbsrdConf.h */,
+				FB4BC0DB15EC736F0059E013 /* DbConnector.h */,
+				FB4BC0E215EC736F0059E013 /* DbManager.h */,
+				FB4BC0E415EC736F0059E013 /* QueryBlockBuster.h */,
+			);
+			path = MODELS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB4BBC9E15DF3E5F0059E013 /* PALANGANA.CLEAN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4BBCAE15DF3E5F0059E013 /* Build configuration list for PBXNativeTarget "PALANGANA.CLEAN" */;
+			buildPhases = (
+				FB4BBC9B15DF3E5F0059E013 /* Sources */,
+				FB4BBC9C15DF3E5F0059E013 /* Frameworks */,
+				FB4BBC9D15DF3E5F0059E013 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PALANGANA.CLEAN;
+			productName = PALANGANA.CLEAN;
+			productReference = FB4BBC9F15DF3E5F0059E013 /* PALANGANA.CLEAN */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB4BBC9615DF3E5F0059E013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "hernan saab";
+			};
+			buildConfigurationList = FB4BBC9915DF3E5F0059E013 /* Build configuration list for PBXProject "PALANGANA.CLEAN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB4BBC9415DF3E5F0059E013;
+			productRefGroup = FB4BBCA015DF3E5F0059E013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB4BBC9E15DF3E5F0059E013 /* PALANGANA.CLEAN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB4BBC9B15DF3E5F0059E013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4BBD0B15DF6DE00059E013 /* main.m in Sources */,
+				FB4BBD0D15DF6E0B0059E013 /* testAbsrd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB4BBCAC15DF3E5F0059E013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./**",
+					"/usr/local/mysql/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = "/usr/local/mysql/lib/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FB4BBCAD15DF3E5F0059E013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./**",
+					"/usr/local/mysql/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = "/usr/local/mysql/lib/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FB4BBCAF15DF3E5F0059E013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/absrd-btlkgjbjufpcdzavyaaihhfidrua/Build/Products/Debug\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PALANGANA.CLEAN/PALANGANA.CLEAN-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"./**",
+					"/usr/local/mysql/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/PALANGANA.CLEAN\"/**",
+					"/usr/local/mysql/lib/**",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/absrd-btlkgjbjufpcdzavyaaihhfidrua/Build/Products/Debug\"",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/absrd_static_library-cgopqjxxonxwbubszmcslheevosm/Build/Products/Release\"",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		FB4BBCB015DF3E5F0059E013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/absrd-btlkgjbjufpcdzavyaaihhfidrua/Build/Products/Debug\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PALANGANA.CLEAN/PALANGANA.CLEAN-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"./**",
+					"/usr/local/mysql/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/PALANGANA.CLEAN\"/**",
+					"/usr/local/mysql/lib/**",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/absrd-btlkgjbjufpcdzavyaaihhfidrua/Build/Products/Debug\"",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/absrd_static_library-cgopqjxxonxwbubszmcslheevosm/Build/Products/Release\"",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB4BBC9915DF3E5F0059E013 /* Build configuration list for PBXProject "PALANGANA.CLEAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4BBCAC15DF3E5F0059E013 /* Debug */,
+				FB4BBCAD15DF3E5F0059E013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4BBCAE15DF3E5F0059E013 /* Build configuration list for PBXNativeTarget "PALANGANA.CLEAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4BBCAF15DF3E5F0059E013 /* Debug */,
+				FB4BBCB015DF3E5F0059E013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB4BBC9615DF3E5F0059E013 /* Project object */;
+}
