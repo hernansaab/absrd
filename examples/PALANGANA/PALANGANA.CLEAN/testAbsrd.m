@@ -48,6 +48,8 @@
 //	NSDictionary *conf = (NSDictionary *)[NSJSONSerialization JSONObjectWithData:dataJson options:NSJSONReadingMutableContainers error:&error];
     
     
+    
+    // you will have to modify the database creds or add/ remove databases
     NSDictionary *conf = @{ @"absrd":
     @{@"databases":@{
             @"default": @{

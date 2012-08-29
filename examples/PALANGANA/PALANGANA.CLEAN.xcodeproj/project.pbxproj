@@ -13,7 +13,7 @@
 		FB4BBD0B15DF6DE00059E013 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4BBCA615DF3E5F0059E013 /* main.m */; };
 		FB4BBD0D15DF6E0B0059E013 /* testAbsrd.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4BBCB315DF3EA10059E013 /* testAbsrd.m */; };
 		FB4BC13F15ECFCFC0059E013 /* libmysqlclient.18.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4BC13E15ECFCFC0059E013 /* libmysqlclient.18.dylib */; };
-		FB4BC14115ECFD570059E013 /* libabsrd_static_library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4BC14015ECFD570059E013 /* libabsrd_static_library.a */; };
+		FB4BC14515EDD35C0059E013 /* libabsrd_static_library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4BC14415EDD35C0059E013 /* libabsrd_static_library.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,7 +43,7 @@
 		FB4BC0E215EC736F0059E013 /* DbManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbManager.h; sourceTree = "<group>"; };
 		FB4BC0E415EC736F0059E013 /* QueryBlockBuster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryBlockBuster.h; sourceTree = "<group>"; };
 		FB4BC13E15ECFCFC0059E013 /* libmysqlclient.18.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libmysqlclient.18.dylib; sourceTree = "<group>"; };
-		FB4BC14015ECFD570059E013 /* libabsrd_static_library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libabsrd_static_library.a; sourceTree = "<group>"; };
+		FB4BC14415EDD35C0059E013 /* libabsrd_static_library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libabsrd_static_library.a; path = PALANGANA.CLEAN/libabsrd_static_library.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 				FB4BBCA415DF3E5F0059E013 /* Foundation.framework in Frameworks */,
 				FB4BBCB515DF3ECE0059E013 /* Cocoa.framework in Frameworks */,
 				FB4BC13F15ECFCFC0059E013 /* libmysqlclient.18.dylib in Frameworks */,
-				FB4BC14115ECFD570059E013 /* libabsrd_static_library.a in Frameworks */,
+				FB4BC14515EDD35C0059E013 /* libabsrd_static_library.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 		FB4BBCA215DF3E5F0059E013 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FB4BC14015ECFD570059E013 /* libabsrd_static_library.a */,
+				FB4BC14415EDD35C0059E013 /* libabsrd_static_library.a */,
 				FB4BC13E15ECFCFC0059E013 /* libmysqlclient.18.dylib */,
 				FB4BBCB415DF3ECE0059E013 /* Cocoa.framework */,
 				FB4BBCA315DF3E5F0059E013 /* Foundation.framework */,
@@ -267,6 +267,7 @@
 					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/absrd-btlkgjbjufpcdzavyaaihhfidrua/Build/Products/Debug\"",
 					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/absrd_static_library-cgopqjxxonxwbubszmcslheevosm/Build/Products/Release\"",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/PALANGANA.CLEAN\"",
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -294,6 +295,7 @@
 					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/absrd-btlkgjbjufpcdzavyaaihhfidrua/Build/Products/Debug\"",
 					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/absrd_static_library-cgopqjxxonxwbubszmcslheevosm/Build/Products/Release\"",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/PALANGANA.CLEAN\"",
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
