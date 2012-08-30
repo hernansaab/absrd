@@ -36,6 +36,6 @@
 +(DbConnector *) getConnector: (NSString *) dbName;
 -(BOOL) releaseAllConnectorsForCurrentQueue ;
 +(DbManager *)singleton;
-
+-(BOOL) releaseAllConnectorsForQueue: (NSString *) queue;
 
 @end
